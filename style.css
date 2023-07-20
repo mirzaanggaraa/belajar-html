@@ -1,0 +1,28 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background-color:gray;
+}
+
+.wrapper{
+    line-height: 35px;
+    background-color: white;
+    width: 360px;
+    padding: 25px;
+    margin: 25px auto 0;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0,5);
+    border-radius: 10px;
+}
+
+
+tr.separator::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid black;
+    margin-top: 5px; /* Adjust this value to control the spacing between the rows */
+  }
+  
